@@ -6,9 +6,7 @@ body{
 }
 
 .backgroundOfForm{
-
-   
-background-color: rgb(243, 243, 243);
+    background-color: rgb(243, 243, 243);
     border-radius: 10px;
     padding:150px;
     padding-top:100px;
@@ -30,13 +28,11 @@ background-color: rgb(243, 243, 243);
     
 }
 hr{
-
     width:40%;
     height: 200%;
 }
 
 .hobbies {
-
     display:flex;
     align-items: center;
     justify-content: center;
@@ -51,20 +47,14 @@ hr{
   
    width: 100px;
    height: 100px;
- 
-
-
 }
-.hobbies:hover
-{
-
+.hobbies:hover{
     background-color: rgb(228, 228, 228);
 }
 
 
 .hobbiesbox{
-    display: flex;
-   
+    display: flex;   
     align-items: center;
     justify-content: center;
     gap:15px;
@@ -92,7 +82,6 @@ h1{
 }
 
 input{
-
     border-radius: 10px;
     border-style: solid;
     border-color: grey;
@@ -101,13 +90,10 @@ input{
     size: 50;
     box-sizing: border-box;
     padding:10px;
-
-     
-
 }
 
 .namebox{
-margin:30px;
+    margin:30px;
     display:flex;
     align-items: center;
     justify-content:center;
@@ -119,8 +105,7 @@ select{
     padding:10px;
     border-style: solid;
     border-color: grey;
-    border-width: 1px;
-   
+    border-width: 1px;   
     background-color: rgb(243, 243, 243);
 
 }
@@ -130,40 +115,32 @@ select{
     border-style:none;
     padding:10px;
     color:whitesmoke;
-  margin:30px;
-  margin-left:140px;
-  display: block;
+    margin:30px;
+    margin-left:140px;
+    display: block;
     width: 150px;
 }
 
 nav{
-
     display:flex;
     align-items: center;
     justify-content: space-around;
     background-color: lightblue;
-    font-family: 'Open Sans', sans-serif;
- 
-    
+    font-family: 'Open Sans', sans-serif;   
 }
 
 .navlinks {
-
     display: flex;
     width:30%;
     letter-spacing: 2px;
     list-style:none;
     justify-content: space-around;
-    
-  
 }
 .navlinks a:visited{
-
     text-decoration: underline;
     color:rgb(63, 63, 63);
 }
 .navlinks a :hover{
-
     color:grey;
 }
 .navlinks a {
@@ -176,26 +153,21 @@ nav{
 }
 
 .show {
-
     display:block;
 }
 
 .selected {
-
-
     border-width: 2px;
     background-color: rgb(201, 201, 201);
 }
 
 img {
-   
     padding: 10px;
     width: 200px;
     height: 200px;
 }
-
   
-  .rangeslider{ 
+.rangeslider{ 
     width: 50%; 
     display: flex;
     align-items: center;
@@ -212,7 +184,7 @@ img {
     opacity: 2; 
    } 
   
-  
+ 
 .myslider::-webkit-slider-thumb { 
     -webkit-appearance: none; 
     cursor: pointer; 
@@ -220,7 +192,6 @@ img {
     width: 20%; 
     height: 20px; 
 } 
-  
   
 .myslider:hover { 
     opacity: 1; 
